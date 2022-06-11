@@ -1,0 +1,45 @@
+.container-fluid{
+    width: 100%;
+    background-image: url('../images/field-with-clouds.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 10px;
+   }
+
+.display {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+.wrapper {
+    margin: 0 9rem;
+    background-color: rgb(115, 115, 210);
+    color: #fff;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+    background: rgb(119, 185, 119);
+    color: white;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  .wrapper p{
+    margin:20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    font-size:23px;
+  }
+
+  .wrapper h2 span{
+    font-size: 26px;
+  }
+    .wrapper p span{
+    color: #90006e;
+    font-size: 25px;
+  }
