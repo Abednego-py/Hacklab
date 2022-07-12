@@ -1,0 +1,65 @@
+
+/***Services Styles ***/
+.about {
+    padding-top: 40px;
+    /* background-image: url('../images/About_background.jpg');
+    background-size: cover; */
+    color: black;
+    font-weight: 700;
+}
+
+.about .container {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    line-height: 30px;
+}
+.about h1 {
+    margin: 30px;
+}
+.about  p {
+    font-weight: 600;
+    margin: 30px;
+}
+
+.card {
+    width: 100%;
+    height: 550px;
+    padding: 20px;
+    border: 1px solid grey;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 0.5px 0.5px grey;
+    border: none;
+    line-height: 35px;
+}
+
+.card-1 {
+    background-image: url('../images/megan-thomas-xMh_ww8HN_Q-unsplash\ \(1\).jpg');
+    background-size: cover;
+    color: #fff;
+    line-height: 40px;
+    font-size: x-large;
+}
+
+.title {
+    width: 70%;
+    line-height: 50px;
+    letter-spacing: 3px;
+}
+
+.card-2 {
+    background-image: url('../images/phone-img.jpeg');
+    background-size: cover;
+    color: #fff;
+    line-height: 40px;
+    font-size: x-large;
+}
+
+.card-3 {
+    background-image: url('../images/wilsan-u-BCATbA86WAw-unsplash.jpg');
+    background-size: cover;
+    color: #fff;
+    line-height: 40px;
+    font-size: x-large;
+}

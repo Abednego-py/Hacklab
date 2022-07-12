@@ -13,7 +13,12 @@ body {
     height: 80vh;
     padding: 10px;
    }
-
+   header {
+    position:static !important;
+}
+.dummy {
+  display: none;
+}
 
 .main {
   width: 100%;
@@ -95,5 +100,5 @@ svg {
   .recommendation h1 {
     text-align: center;
     margin-top: 40px;
-    
+
   }

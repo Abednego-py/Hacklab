@@ -14,7 +14,7 @@ header {
 .dummy {
     display: none;
 }
-.card {
+.card-login {
     background-image: url('../images/login-ground.jpg');
     background-size: cover;
     height: 700px;
