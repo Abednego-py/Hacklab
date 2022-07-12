@@ -48,7 +48,7 @@ header .logo {
   background-color: #fff;
   border: 1px solid green;
 }
-.nav button:hover {
+button:hover {
     background-color: seagreen;
     border: none;
     color: #fff;
@@ -124,13 +124,25 @@ a {
 }
 #sec-section button{
     width: 100px;
-    height: 30px;
+    height: 40px;
     margin: 30px;
     color: #fff;
     background-color: yellowgreen;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+#sec-section button:hover {
+    background-color:green;
+}
+
+#sec-section h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+#sec-section p {
+    font-size: large;
 }
 
 
@@ -145,14 +157,22 @@ a {
 }
 #third-section button {
     width: 100px;
-    height: 30px;
+    height: 40px;
     margin: 30px;
-    margin-left: 120px;
     color: #fff;
     background-color: yellowgreen;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+#third-section h1 {
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+#third-section button:hover {
+    background-color:green;
+   
 }
 
 /**Footer Styles **/
@@ -219,4 +239,16 @@ footer .top_ #input, #contact {
 .about  p {
     font-weight: 600;
     margin: 30px;
+}
+
+.card {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    border: 1px solid grey;
+    background-color: #fff;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 0.5px 0.5px grey;
+    border: none;
+    line-height: 35px;
 }

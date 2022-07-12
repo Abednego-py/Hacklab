@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="Styles/forecast.css">
     <Script src="Scripts/script2.js" async></Script>
     <Script src="Scripts/script.js" async></Script>
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 
@@ -19,7 +21,8 @@
         </div>
         <div class="nav">
             <ul>
-                <a href="About.html"> <li>About</li></a> 
+                <a href="about.html"> <li>About</li></a> 
+                <a href="services.html"> <li>Services</li></a> 
                 <a href="Solutions.html"><li>Solutions</li></a> 
             </ul>
             <button><a href="login.html"> Log in </a> </button>
@@ -27,21 +30,58 @@
         </div>
     </header>
     <div class="dummy"></div>
+
+    <!--Weather Forecast template-->
     <div class="container-fluid">
         <section class="main">
-             <section class="display">
+
+            <section class="inputs">
+
+                <input type="text" placeholder="Enter your current location..." id="cityinput">
+             
+                <button placeholder="submit" id="add">Submit</button>
+
+             </section>
+
                 <div class="wrapper">
                     <h2 id="cityoutput"></h2>
-                    <p id="description"></p>
-                    <p id="temp"></p>
-                    <p id="wind"></p>
-                    <p id="humidity"></p>
+                    
+                    <div class="temp card">
+                        <p id="temp"></p>
+                    </div>
+
+                    <div class="card desc">
+                     
+                        <p id="description"></p>
+                    </div>
+                   
+                    <div class="card wind">
+
+                        <p id="wind"></p>
+                    </div>
+                   
+                    <div class="card humidity">
+                        <p id="humidity"></p>
+                    </div>
+                   
                 </div>
               </section>
         </section>
      </div>
 
+     <!----Recommmendation Section ----->
+     <section class="recommendation">
+        <h1>Recommendations</h1>
+
+        <div class="col-6">
+        </div>
+
+        <div class="col-6"></div>
+
+    </section>
      <!--Footer-->
+
+
      <footer>
 
         <div class="top_">
@@ -50,7 +90,6 @@
     </div>
 
     <div class="bottom_">
-        <a href="index.html"><img src="images/Agroedge.png" alt="logo" width="70px" height="50px"> </a> 
     </div>
     </footer>
 </body>

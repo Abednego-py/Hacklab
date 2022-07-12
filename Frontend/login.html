@@ -7,6 +7,7 @@
     <title>AgroEdge | Login</title>
     <link rel="stylesheet" href="Styles/login.css">
     <link rel="stylesheet" href="Styles/style.css">
+    <Script src="Scripts/index.js" async></Script>
     <Script src="Scripts/script.js" async></Script>
 </head>
 <body>
@@ -16,7 +17,8 @@
         </div>
         <div class="nav">
             <ul>
-                <a href="About.html"> <li>About</li></a> 
+                <a href="about.html"> <li>About</li></a> 
+                <a href="services.html"> <li>Services</li></a> 
                 <a href="Solutions.html"><li>Solutions</li></a> 
             </ul>
             <button><a href="login.html"> Log in </a> </button>
@@ -33,32 +35,32 @@
 
 
         <div class="innercard reg-form" id="reg-form">
-            <form action="" method="post" id="signUp" onsubmit="signUp()">
+            <form action="https://voathclone.vercel.app/api/v1/auth/signup" method="post" id="signUp">
             <h3>Sign Up</h3>
 
             <label for="email">
                 Email
-                <input type="email" name="email">
+                <input type="email" name="email" id="email" required>
             </label>
             <label for="firstname">
                 Firstname
-                <input type="name" name="firstname">
+                <input type="name" name="firstname" id="firstname" required>
             </label>
             <label for="lastname">
                 Lastname
-                <input type="name" name="lastname">
+                <input type="name" name="lastname" id="lastname" required>
             </label>
             <label for="number">
                 Phone number
-                <input type="tel" name="number">
+                <input type="tel" name="number" id="number" required>
             </label>
             <label for="password">
                 Password 
-                <input type="password" name="password">
+                <input type="password" name="password" id="password" required>
             </label>
             <label for="password">
                 Retype Password 
-                <input type="password" name="password">
+                <input type="password" name="password" id="password" required>
             </label>
             <button type="submit">Sign Up</button>
         </form>
@@ -73,12 +75,12 @@
             <h3>Login</h3>
             <label for="email">
                 Email
-                <input type="email" name="email">
+                <input type="email" name="email" id="email_">
             </label>
 
             <label for="password">
                 Password 
-                <input type="password" name="password">
+                <input type="password" name="password" id="password_">
             </label>
             <button>Login</button>
         </form>
